@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+body{
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    color :#93c78c;
+}
+
+.paragraf {
+    font-size: 2.5rem;
+    font-family: 'Roboto Slab', serif;
+
+}
+.head{
+    font-family: 'Open Sans', sans-serif;
+    color: #deb37e;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding-top: 95px;
+    text-shadow: 1px -3px #d6c9b8;
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+}
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+
+}
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-color: #fff;
+  }
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+  }
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron h1 {
+    font-weight: 300;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+  #footer{
+      position: relative;
+      left: 60px;
+  }
